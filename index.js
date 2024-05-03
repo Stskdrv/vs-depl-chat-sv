@@ -36,5 +36,3 @@ app.get("/", (req, res) => {
 app.listen(process.env.PORT, () => {
     console.log(`Backend is running on ${process.env.PORT}!`);
 });
-
-export default app;
